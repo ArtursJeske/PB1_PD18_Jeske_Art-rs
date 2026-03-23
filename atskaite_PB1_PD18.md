@@ -5,25 +5,25 @@
 
 ## 1. Vispārīgā informācija
 
-- Vārds, Uzvārds:
+- Vārds, Uzvārds: Artūrs Jeske
 - Grupa:
-- Praktiskā darba kods:
-- Datums:
+- Praktiskā darba kods: PB1_PD18
+- Datums: 23.03.2026
 
 ---
 
 ## 2. Darba mērķis
 
-Īsi apraksti, ko šajā praktiskajā darbā bija paredzēts apgūt un kādas prasmes attīstīt.
+Iemācīties izmantot CI, Github testētāju.
 
 ---
 
 ## 3. Izmantotā vide un rīki
 
-- Operētājsistēma:
-- Programmas / rīki:
+- Operētājsistēma: Windows 11
+- Programmas / rīki: Python, Github
 - Versijas (ja nepieciešams):
-- Papildu bibliotēkas / servisi (ja attiecas):
+- Papildu bibliotēkas / servisi (ja attiecas): unittest
 
 ---
 
@@ -35,23 +35,47 @@ Apraksti katra uzdevuma izpildi atsevišķā apakšsadaļā.
 
 ### 4.1. Uzdevums 1
 
-- Ko darīju:
-- Izmantotās komandas / darbības:
-- Rezultāts:
-- Ekrānšāviņš (ja nepieciešams):
+Izveidoju Github repository.
+Izveidoju 4 uzdevumus - Izveidot funkciju, Uzrakstīju testu, Iestatīju CI, atjauninaju Readme.
 
 ---
 
 ### 4.2. Uzdevums 2
 
-- Ko darīju:
-- Izmantotās komandas / darbības:
-- Rezultāts:
-- Ekrānšāviņš (ja nepieciešams):
+Izveidoju vienkāršu saskaitīšanas funkciju iekš kalkulators.py
 
 ---
 
-*(Turpini atbilstoši konkrētā PD uzdevumu skaitam.)*
+### 4.2. Uzdevums 3
+
+Uztaisīju testa failu kalkulatoram, ar unittest bibliotēku.
+
+---
+
+### 4.2. Uzdevums 4
+
+Izveidoju Github workflows mapi ar main.yml failu, kur iekša ir CI konfigurācija.
+
+Sanāca, ļoti interesants koncepts.
+
+---
+
+### 4.2. Uzdevums 5
+
+Apzināti sabojāju testu, nomainīju pareizo vērtību uz nepareizu.
+
+Uztaisīju commit ar nepareizo testu, lai redzētu ka mans unittest darbojas un parādīja ka ir kļūda.
+
+Izlaboju testu , uztaisīju commit un viss kārtībā.
+
+---
+
+### 4.2. Uzdevums 6
+
+README.md failu papildināju
+CI_refleksijas failu papildināju.
+
+---
 
 ---
 
@@ -59,10 +83,7 @@ Apraksti katra uzdevuma izpildi atsevišķā apakšsadaļā.
 
 Apraksti vismaz vienu problēmu, ar kuru saskāries darba laikā:
 
-- Problēmas apraksts:
-- Kļūdas ziņojums (ja bija):
-- Risinājums:
-- Ko no tā iemācījos:
+Pagāja mazliet laiciņš kamēr sapratu to galveno ideju un par tieši "push" funkciju iekš main.yml faila.
 
 ---
 
@@ -70,10 +91,9 @@ Apraksti vismaz vienu problēmu, ar kuru saskāries darba laikā:
 
 Atbildi īsi uz jautājumiem:
 
-- Ko jaunu iemācījos šajā darbā?
-- Kas bija grūtākais?
-- Kas izdevās vislabāk?
-- Ko darītu citādi nākamreiz?
+Es pirms tam nezināju , ka tāda testēšana ir pieejama Github - biju domājis ka vienkārši liekam savus projektus.
+
+Galvenais , ka sapratu ideju kā tas noder darbojoties lielās komandās un ne tikai, ja tagad funkcija ir maza tad pie lieliem projektiem varētu uzreiz izķert visas kļūdas.
 
 ---
 
@@ -83,15 +103,16 @@ Novērtē savu darbu atbilstoši šī praktiskā darba vērtēšanas kritērijie
 
 | Kritērijs | Maks. punkti | Mani punkti |
 |------------|-------------|-------------|
-| Kritērijs 1 |   |   |
-| Kritērijs 2 |   |   |
-| Kritērijs 3 |   |   |
-| Kritērijs 4 |   |   |
-| Kritērijs 5 |   |   |
+| Kritērijs 1 |  20 | 20  |
+| Kritērijs 2 |  15 | 15  |
+| Kritērijs 3 |  20 | 20  |
+| Kritērijs 4 | 20  | 20  |
+| Kritērijs 5 | 15  | 15  |
+| Kritērijs 6 | 10  | 10  |
 
-Kopā punkti: ___ / 100
+Kopā punkti: 90 / 100
 
-Pamatojums (ja nepieciešams):
+Pamatojums (ja nepieciešams): - 10 punkti par nokavētu termiņu.
 
 ---
 

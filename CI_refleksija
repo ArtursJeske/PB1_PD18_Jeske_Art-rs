@@ -1,0 +1,25 @@
+# CI Refleksija
+
+## 1. Kas notika, kad tests bija kļūdains?
+
+GitHub Actions automātiski palaida testus pēc git push un parādīja sarkanu statusu.
+Es redzēju precīzu kļūdas ziņojumu — AssertionError: 2000 != 7.
+Tas ļāva man uzreiz saprast, kas ir nepareizi.
+
+## 2. Kāpēc CI palīdz ātri pamanīt kļūdas?
+
+CI pārbauda kodu automātiski — man nav jāatceras manuāli palaist testus.
+Lielā komandā, kur desmitiem cilvēku veic izmaiņas, CI nodrošina, ka
+neviens nejauši "nesalauž" kopējo kodu.
+
+## 3. Kā DoD palīdz komandai?
+
+Definition of Done novērš situācijas, kad "es domāju, ka ir gatavs".
+Komandai ir skaidri kritēriji — vai CI ir zaļš? Vai tests ir rakstīts?
+Tikai tad uzdevums tiek uzskatīts par pabeigtu.
+
+## 4. Kā mainījās mana attieksme pret git push?
+
+Pirms es vienkārši "pushoju" kodu un cerēju, ka viss ir kārtībā.
+Tagad es saprotu, ka katrs push = automātiska pārbaude.
+Tas liek uzrakstīt testus PIRMS push, nevis pēc.
