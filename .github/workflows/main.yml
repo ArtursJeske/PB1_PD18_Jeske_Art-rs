@@ -1,0 +1,24 @@
+# .github/workflows/main.yml
+
+name: Python testi ar unittest  # CI procesa nosaukums
+
+on: [push]  # Aktivizējas katru reizi, kad kāds dara git push
+
+jobs:
+  testi:
+    runs-on: ubuntu-latest  # Izmanto Linux serveri
+    
+    steps:
+      - name: 1. Ielādē kodu
+        uses: actions/checkout@v3
+        # Lejupielādē tava repozitorija kodu uz serveri
+      
+      - name: 2. Iestata Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+        # Instalē Python 3.11
+      
+      - name: 3. Palaiž testus
+        run: python -m unittest discover
+        # Meklē visus test_*.py failus un palaiž tos
