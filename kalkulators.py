@@ -1,4 +1,4 @@
-# kalkulators.py
+
 
 def saskaitit(a, b):
     """

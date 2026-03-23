@@ -120,6 +120,9 @@ Pamatojums (ja nepieciešams): - 10 punkti par nokavētu termiņu.
 
 Norādi pievienotos failus vai ekrānšāviņus:
 
-- Pielikums 1 –
-- Pielikums 2 –
-- u.c.
+- atskaite_PB1_PD18_Jeske_Artūrs - atskaites fails
+- CI_refleksija - CI refleksijas fails
+- kalkulators.py - funkcijas fails
+- README.md - Readme fails
+- test_kalkulators.py - testa fails
+- .github - github mape.
